@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/styles_cart.css">
+  <script src="./js/script.js" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./linhtinh/bootstrap.css">
+  <title>Shop trái cây nhập khẩu</title>
+</head>
+
+<body>
+
+  <div class="header container-fluid">
+    <div class="logo">
+      <a href="./index.html">
+      <img src="./img/logo.jpg" alt="Logo"></a>
+    </div>
+    <div class="taskbar">
+      <div class="menu">
+        <div class="dropdown">
+          <button class="dropbtn">Trái Cây Nội Địa</button>
+          <div class="dropdown-content">
+            <a href="#">Theo Vùng</a>
+            <a href="#">Theo Mùa</a>
+          </div>
+        </div>
+        <a href="#">Trái Cây Nhập Khẩu</a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="Tìm kiếm...">
+        <button class="search-button">Tìm</button>
+      </div>
+      <div class="user">
+        <a href="login.html" id="loginButton">Đăng Nhập</a>
+        <a href="#" id="logoutButton" style="display:none;">Đăng Xuất</a>
+        <a href="cart.html" id="cartButton">Giỏ Hàng</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/banner4.jpg" class="d-block w-100" alt="...1">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/banner2.jpg" class="d-block w-100" alt="...2">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/banner3.jpg" class="d-block w-100" alt="...3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="main">
+    <div class="category container ">
+      <div class="category-2">
+        <h2>Trái Cây Nội Địa</h2>
+        <div class="row list-card">
+          <div class="col-3 card">
+            <a href="product.html?id=2">
+              <img class="card-img-top" src="./img/1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Dưa Hấu</h5>
+                <h6 class="price">Giá:$2</h6>
+              </div>
+            </a>
+          </div>
+          <div class="col-3 card">
+            <img class="card-img-top" src="./img/NK1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nho mẫu đơn</h5>
+              <h6 class="price">Giá:400.000</h6>
+            </div>
+          </div>
+          <div class="col-3 card">
+            <img class="card-img-top" src="./img/NK1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nho mẫu đơn</h5>
+              <h6 class="price">Giá:400.000</h6>
+            </div>
+          </div>
+          <div class="col-3 card">
+            <img class="card-img-top" src="./img/NK1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nho mẫu đơn</h5>
+              <h6 class="price">Giá:400.000</h6>
+            </div>
+          </div>
+          <div class="col-3 card">
+            <a href="ctsp.html">
+              <img class="card-img-top" src="./img/NK1.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Nho mẫu đơn</h5>
+              <h6 class="price">Giá:400.000</h6>
+            </div>
+          </div>
+          <div class="col-3 card">
+            <img class="card-img-top" src="./img/NK1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nho mẫu đơn</h5>
+              <h6 class="price">Giá:400.000</h6>
+            </div>
+          </div>
+          <div class="col-3 card">
+            <img class="card-img-top" src="./img/NK1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nho mẫu đơn</h5>
+              <h6 class="price">Giá:400.000</h6>
+            </div>
+          </div>
+          <div class="col-3 card">
+            <img class="card-img-top" src="./img/NK1.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Nho mẫu đơn</h5>
+              <h6 class="price">Giá:400.000</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="news container-fluid  ">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-8 col-sm-12">
+          <div class="title-3">
+            <h3> TIN TỨC</h3>
+          </div>
+          <div class="list-news row m-0">
+            <a class="new-1 row col-xl-12 col-md-4 col-sm-12  col-12 m-0 " href="#">
+              <div class="row">
+                <div class="img-new col-xl-4 col-sm-12 col-12 m-0">
+                  <img src="./imgs/abc1.jpg ">
+                </div>
+                <div class="text-new col-xl-8 col-sm-12 col-12 m-0">
+                  <h5>tiêu đề</h5>
+                  <div class="date">a/a/a</div>
+                  <div class="noidung">Tự trồng rau trong thùng xốp tại nhà là sự lựa chọn
+                    của rất
+                    nhiều gia đình trong thành phố bởi phương pháp trồng rau đơn giản,
+                    dễ trồng,
+                    dễ
+                    quản lý, an toàn và tiện lợi. Nhưng người trồng cũng ...
+
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-12 row lienhes">
+          <div class="lienhe col-xl-12 col-sm-12">
+
+            <form>
+              <div class="title-form">
+                <span>LIÊN HỆ TƯ VẤN MUA HÀNG</span>
+              </div>
+
+              <div class="form-group  name1">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="nhập tên">
+              </div>
+              <div class="form-group lh-email">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nhập mail">
+              </div>
+              <div class="form-group lh-text">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                  placeholder="nhập nội dung"></textarea>
+              </div>
+              <div class="btn-submit w-100">
+                <button>Gửi liên hệ</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="main-footer container-fluid">
+      <div class="top-ft container ">
+        <div class="row ">
+          <div class="col-xl-3 col-sm-12">
+            <div class="logo-footer">
+              <a href="#" style=" text-decoration: none; color: #000000;">
+                <img src="./img/logo.jpg" alt="Logo">
+              </a>
+            </div>
+            <div class="nd-1">
+              <div class="title-ft-1">
+                <span>Về chúng tôi</span>
+              </div>
+              <div class="mota-title">
+                <p>Chuyên cung cấp các loại hoa quả nhập khẩu, nội địa và các loại thực phẩm từ
+                  thiên
+                  nhiên.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-12">
+            <div class="nd-1">
+              <div class="title-ft-1">
+                <span>Liên hệ</span>
+              </div>
+              <div class=" mota-title">
+                <p>
+                  <i class="fa-solid fa-house" style="color: #000000;"></i>
+                  Thứ 2 - Chủ Nhật: 8:00-20:00 PM
+                </p>
+                <p>
+                  <i class="fa-solid fa-house" style="color: #000000;"></i>
+                  Điện thoại: 091.4411.293
+                </p>
+                <p>
+                  <i class="fa-solid fa-house" style="color: #000000;"></i>
+                  Email: INFO@VINFRUITS.COM
+                </p>
+                <p>
+                  <i class="fa-solid fa-house" style="color: #000000;"></i>
+                  Cửa hàng: Nguyễn Đỉnh Chiểu, Quận 3, Thành Phố Hồ Chí Minh.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-12">
+            <div class="nd-1">
+              <div class="title-ft-1">
+                <span>Sản Phẩm</span>
+              </div>
+              <div class="row mota-title">
+                <div class="col-12 col-mota">
+                  <a href="#" style=" text-decoration: none; color: #000000; "> 
+                    Trái Cây Nhập Khẩu</a>
+                </div>
+                <div class="col-12 col-mota">
+                  <a href="#" style=" text-decoration: none; color: #000000;"> 
+                    Giỏ Quà Trái Cây</a>
+                </div>
+                <div class="col-12 col-mota">
+                  <a href="#" style=" text-decoration: none; color: #000000;"> 
+                    Trái Cây Vườn</a>
+                </div>
+                <div class="col-12 col-mota">
+                  <a href="#" style=" text-decoration: none; color: #000000;">
+                    Trái Cây Sỉ</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-12">
+            <div class="nd-1">
+              <div class="title-ft-1">
+                <span>Chính sách</span>
+              </div>
+              <div class="row mota-title">
+                <div class="col-12 col-mota">
+                  <a href="#" style=" text-decoration: none; color: #000000;"> Phương thức thanh toán </a>
+                </div>
+                <div class="col-12 col-mota">
+                  <a href="#" style=" text-decoration: none; color: #000000;"> Chính sách giao hàng</a>
+                </div>
+                <div class="col-12 col-mota">
+                  <a href="#" style=" text-decoration: none; color: #000000;"> Chính sách bảo mật</a>
+                </div>
+                <div class="col-12 col-mota">
+                  <a href="#" style=" text-decoration: none; color: #000000;"> Chính sách bảo hành đổi trả</a>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="ft-lienhe container-fluid ">
+      <div class="container">
+        Copyright 2023 © Thiết kế website abc
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <script src="./js/check.js">
+
+  </script>
+</body>
+
+</html>

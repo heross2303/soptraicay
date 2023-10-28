@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="./linhtinh/bootstrap.css">
+    <title>Shop trái cây nhập khẩu</title>
+</head>
+
+<body>
+    <div class="header container-fluid">
+        <div class="logo">
+          <a href="./index.html">
+          <img src="./img/logo.jpg" alt="Logo"></a>
+        </div>
+        <div class="taskbar">
+          <div class="menu">
+            <div class="dropdown">
+              <button class="dropbtn">Trái Cây Nội Địa</button>
+              <div class="dropdown-content">
+                <a href="#">Theo Vùng</a>
+                <a href="#">Theo Mùa</a>
+              </div>
+            </div>
+            <a href="#">Trái Cây Nhập Khẩu</a>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Tìm kiếm...">
+            <button class="search-button">Tìm</button>
+          </div>
+          <div class="user">
+            <a href="login.html" id="loginButton">Đăng Nhập</a>
+            <a href="#" id="logoutButton" style="display:none;">Đăng Xuất</a>
+            <a href="cart.html" id="cartButton">Giỏ Hàng</a>
+          </div>
+        </div>
+      </div>
+    
+
+
+
+    <div class="login-container">
+        <div class="title-login">
+            <h2>Đăng Nhập</h2>
+        </div>
+
+        <div class="b-form">
+            <form class="login-form">
+                <div class="form-group">
+                    <label for="username">Tài Khoản:</label>
+                    <input type="text" id="username" name="username" required style="width: 300px;">
+                </div>
+                <div class="form-group">
+                    <label for="password">Mật Khẩu:</label>
+                    <input type="password" id="password" name="password" required style="width: 300px;">
+                </div>
+                <div class="btn-submit">
+                    <button type="button" onclick="login()">Đăng Nhập</button>
+                </div>
+                <div class="extend-login">
+                    <a href="#"> Quên mật khẩu</a>
+                    <p>Bạn chưa có tài khoản
+                    <div class="register"><a href="regis.html">Đăng ký</a>
+                    </div>
+                    </p>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="footer">
+        <div class="main-footer container-fluid">
+            <div class="top-ft container ">
+                <div class="row ">
+                    <div class="col-xl-3 col-sm-12">
+                        <div class="logo-footer">
+                            <a href="#" style=" text-decoration: none; color: #000000;">
+                                <img src="./img/logo.jpg" alt="Logo">
+                            </a>
+                          </div>
+                          <div class="nd-1">
+                            <div class="title-ft-1">
+                              <span>Về chúng tôi</span>
+                            </div>
+                            <div class="mota-title">
+                              <p>Chuyên cung cấp các loại hoa quả nhập khẩu, nội địa và các loại thực phẩm từ
+                                thiên
+                                nhiên.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-12">
+                          <div class="nd-1">
+                            <div class="title-ft-1">
+                              <span>Liên hệ</span>
+                            </div>
+                            <div class=" mota-title">
+                              <p>
+                                <i class="fa-solid fa-house" style="color: #000000;"></i>
+                                Thứ 2 - Chủ Nhật: 8:00-20:00 PM
+                              </p>
+                              <p>
+                                <i class="fa-solid fa-house" style="color: #000000;"></i>
+                                Điện thoại: 091.4411.293
+                              </p>
+                              <p>
+                                <i class="fa-solid fa-house" style="color: #000000;"></i>
+                                Email: INFO@VINFRUITS.COM
+                              </p>
+                              <p>
+                                <i class="fa-solid fa-house" style="color: #000000;"></i>
+                                Cửa hàng: Nguyễn Đỉnh Chiểu, Quận 3, Thành Phố Hồ Chí Minh.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-12">
+                          <div class="nd-1">
+                            <div class="title-ft-1">
+                              <span>Sản Phẩm</span>
+                            </div>
+                            <div class="row mota-title">
+                              <div class="col-12 col-mota">
+                                <a href="#" style=" text-decoration: none; color: #000000; "> 
+                                  Trái Cây Nhập Khẩu</a>
+                              </div>
+                              <div class="col-12 col-mota">
+                                <a href="#" style=" text-decoration: none; color: #000000;"> 
+                                  Giỏ Quà Trái Cây</a>
+                              </div>
+                              <div class="col-12 col-mota">
+                                <a href="#" style=" text-decoration: none; color: #000000;"> 
+                                  Trái Cây Vườn</a>
+                              </div>
+                              <div class="col-12 col-mota">
+                                <a href="#" style=" text-decoration: none; color: #000000;">
+                                  Trái Cây Sỉ</a>
+                              </div>
+              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-xl-3 col-sm-12">
+                          <div class="nd-1">
+                            <div class="title-ft-1">
+                              <span>Chính sách</span>
+                            </div>
+                            <div class="row mota-title">
+                              <div class="col-12 col-mota">
+                                <a href="#" style=" text-decoration: none; color: #000000;"> Phương thức thanh toán </a>
+                              </div>
+                              <div class="col-12 col-mota">
+                                <a href="#" style=" text-decoration: none; color: #000000;"> Chính sách giao hàng</a>
+                              </div>
+                              <div class="col-12 col-mota">
+                                <a href="#" style=" text-decoration: none; color: #000000;"> Chính sách bảo mật</a>
+                              </div>
+                              <div class="col-12 col-mota">
+                                <a href="#" style=" text-decoration: none; color: #000000;"> Chính sách bảo hành đổi trả</a>
+                              </div>
+              
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="ft-lienhe container-fluid ">
+            <div class="container">
+                Copyright 2023 © Thiết kế website abc
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
